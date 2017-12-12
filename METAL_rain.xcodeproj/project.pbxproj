@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3AE2EC141FDF200A000F9B20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2EC131FDF200A000F9B20 /* AppDelegate.m */; };
+		3AE2EC161FDF200A000F9B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2EC151FDF200A000F9B20 /* Assets.xcassets */; };
+		3AE2EC191FDF200A000F9B20 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2EC171FDF200A000F9B20 /* MainMenu.xib */; };
+		3AE2EC1C1FDF200A000F9B20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2EC1B1FDF200A000F9B20 /* main.m */; };
+		3AE2EC3A1FDF2B6C000F9B20 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2EC381FDF2B6C000F9B20 /* MainViewController.m */; };
+		3AE2EC3B1FDF2B6C000F9B20 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2EC391FDF2B6C000F9B20 /* MainViewController.xib */; };
+		3AE2EC3D1FDF3203000F9B20 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2EC3C1FDF3203000F9B20 /* Shaders.metal */; };
+		3AE2EC411FDF3C4B000F9B20 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2EC3F1FDF3C4B000F9B20 /* MainWindowController.m */; };
+		3AE2EC421FDF3C4B000F9B20 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2EC401FDF3C4B000F9B20 /* MainWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3AE2EC0F1FDF200A000F9B20 /* METAL_rain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = METAL_rain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE2EC121FDF200A000F9B20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3AE2EC131FDF200A000F9B20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3AE2EC151FDF200A000F9B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AE2EC181FDF200A000F9B20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3AE2EC1A1FDF200A000F9B20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AE2EC1B1FDF200A000F9B20 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3AE2EC1D1FDF200A000F9B20 /* METAL_rain.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = METAL_rain.entitlements; sourceTree = "<group>"; };
+		3AE2EC371FDF2B6C000F9B20 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3AE2EC381FDF2B6C000F9B20 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3AE2EC391FDF2B6C000F9B20 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		3AE2EC3C1FDF3203000F9B20 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		3AE2EC3E1FDF3C4B000F9B20 /* MainWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		3AE2EC3F1FDF3C4B000F9B20 /* MainWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		3AE2EC401FDF3C4B000F9B20 /* MainWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AE2EC0C1FDF200A000F9B20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AE2EC061FDF200A000F9B20 = {
+			isa = PBXGroup;
+			children = (
+				3AE2EC111FDF200A000F9B20 /* METAL_rain */,
+				3AE2EC101FDF200A000F9B20 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AE2EC101FDF200A000F9B20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2EC0F1FDF200A000F9B20 /* METAL_rain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AE2EC111FDF200A000F9B20 /* METAL_rain */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2EC271FDF262D000F9B20 /* AppDelegate */,
+				3AE2EC2B1FDF26D5000F9B20 /* MainWindowController */,
+				3AE2EC361FDF2B52000F9B20 /* MainViewController */,
+				3AE2EC3C1FDF3203000F9B20 /* Shaders.metal */,
+				3AE2EC151FDF200A000F9B20 /* Assets.xcassets */,
+				3AE2EC171FDF200A000F9B20 /* MainMenu.xib */,
+				3AE2EC1A1FDF200A000F9B20 /* Info.plist */,
+				3AE2EC1B1FDF200A000F9B20 /* main.m */,
+				3AE2EC1D1FDF200A000F9B20 /* METAL_rain.entitlements */,
+			);
+			path = METAL_rain;
+			sourceTree = "<group>";
+		};
+		3AE2EC271FDF262D000F9B20 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2EC121FDF200A000F9B20 /* AppDelegate.h */,
+				3AE2EC131FDF200A000F9B20 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		3AE2EC2B1FDF26D5000F9B20 /* MainWindowController */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2EC3E1FDF3C4B000F9B20 /* MainWindowController.h */,
+				3AE2EC3F1FDF3C4B000F9B20 /* MainWindowController.m */,
+				3AE2EC401FDF3C4B000F9B20 /* MainWindowController.xib */,
+			);
+			path = MainWindowController;
+			sourceTree = "<group>";
+		};
+		3AE2EC361FDF2B52000F9B20 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2EC371FDF2B6C000F9B20 /* MainViewController.h */,
+				3AE2EC381FDF2B6C000F9B20 /* MainViewController.m */,
+				3AE2EC391FDF2B6C000F9B20 /* MainViewController.xib */,
+			);
+			name = MainViewController;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AE2EC0E1FDF200A000F9B20 /* METAL_rain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AE2EC201FDF200A000F9B20 /* Build configuration list for PBXNativeTarget "METAL_rain" */;
+			buildPhases = (
+				3AE2EC0B1FDF200A000F9B20 /* Sources */,
+				3AE2EC0C1FDF200A000F9B20 /* Frameworks */,
+				3AE2EC0D1FDF200A000F9B20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = METAL_rain;
+			productName = METAL_rain;
+			productReference = 3AE2EC0F1FDF200A000F9B20 /* METAL_rain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AE2EC071FDF200A000F9B20 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alex Vihlayew";
+				TargetAttributes = {
+					3AE2EC0E1FDF200A000F9B20 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3AE2EC0A1FDF200A000F9B20 /* Build configuration list for PBXProject "METAL_rain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AE2EC061FDF200A000F9B20;
+			productRefGroup = 3AE2EC101FDF200A000F9B20 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AE2EC0E1FDF200A000F9B20 /* METAL_rain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AE2EC0D1FDF200A000F9B20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE2EC161FDF200A000F9B20 /* Assets.xcassets in Resources */,
+				3AE2EC3B1FDF2B6C000F9B20 /* MainViewController.xib in Resources */,
+				3AE2EC421FDF3C4B000F9B20 /* MainWindowController.xib in Resources */,
+				3AE2EC191FDF200A000F9B20 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AE2EC0B1FDF200A000F9B20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AE2EC411FDF3C4B000F9B20 /* MainWindowController.m in Sources */,
+				3AE2EC1C1FDF200A000F9B20 /* main.m in Sources */,
+				3AE2EC141FDF200A000F9B20 /* AppDelegate.m in Sources */,
+				3AE2EC3A1FDF2B6C000F9B20 /* MainViewController.m in Sources */,
+				3AE2EC3D1FDF3203000F9B20 /* Shaders.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3AE2EC171FDF200A000F9B20 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3AE2EC181FDF200A000F9B20 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3AE2EC1E1FDF200A000F9B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3AE2EC1F1FDF200A000F9B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3AE2EC211FDF200A000F9B20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = METAL_rain/METAL_rain.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = METAL_rain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vihlayew.METAL-rain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3AE2EC221FDF200A000F9B20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = METAL_rain/METAL_rain.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = METAL_rain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vihlayew.METAL-rain";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AE2EC0A1FDF200A000F9B20 /* Build configuration list for PBXProject "METAL_rain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE2EC1E1FDF200A000F9B20 /* Debug */,
+				3AE2EC1F1FDF200A000F9B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AE2EC201FDF200A000F9B20 /* Build configuration list for PBXNativeTarget "METAL_rain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AE2EC211FDF200A000F9B20 /* Debug */,
+				3AE2EC221FDF200A000F9B20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3AE2EC071FDF200A000F9B20 /* Project object */;
+}
