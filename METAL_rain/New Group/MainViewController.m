@@ -44,6 +44,7 @@ float vertexData[] = {0.0, 1.0, 0.0,
     [self configureLayer];
     [self configureVertexBuffer];
     [self configurePipelineState];
+    [self configureCommandQueue];
     [self configureRenderer];
 }
 
