@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A7CEE111FE45E7F00CE443D /* AVRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7CEE101FE45E7F00CE443D /* AVRenderer.m */; };
 		3AE2EC141FDF200A000F9B20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2EC131FDF200A000F9B20 /* AppDelegate.m */; };
 		3AE2EC161FDF200A000F9B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2EC151FDF200A000F9B20 /* Assets.xcassets */; };
 		3AE2EC191FDF200A000F9B20 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AE2EC171FDF200A000F9B20 /* MainMenu.xib */; };
@@ -19,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A25391E1FE1F378005DD7A8 /* AVVertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVVertex.h; sourceTree = "<group>"; };
+		3A7CEE0F1FE45E7F00CE443D /* AVRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVRenderer.h; sourceTree = "<group>"; };
+		3A7CEE101FE45E7F00CE443D /* AVRenderer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVRenderer.m; sourceTree = "<group>"; };
 		3AE2EC0F1FDF200A000F9B20 /* METAL_rain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = METAL_rain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AE2EC121FDF200A000F9B20 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3AE2EC131FDF200A000F9B20 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,6 +51,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A7CEE0E1FE45E6000CE443D /* Renderer */ = {
+			isa = PBXGroup;
+			children = (
+				3A7CEE0F1FE45E7F00CE443D /* AVRenderer.h */,
+				3A7CEE101FE45E7F00CE443D /* AVRenderer.m */,
+			);
+			path = Renderer;
+			sourceTree = "<group>";
+		};
+		3A7CEE121FE45E8700CE443D /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2EC3C1FDF3203000F9B20 /* Shaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
 		3AE2EC061FDF200A000F9B20 = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +90,8 @@
 				3AE2EC271FDF262D000F9B20 /* AppDelegate */,
 				3AE2EC2B1FDF26D5000F9B20 /* MainWindowController */,
 				3AE2EC361FDF2B52000F9B20 /* MainViewController */,
-				3AE2EC3C1FDF3203000F9B20 /* Shaders.metal */,
+				3A7CEE0E1FE45E6000CE443D /* Renderer */,
+				3A7CEE121FE45E8700CE443D /* Shaders */,
 				3AE2EC151FDF200A000F9B20 /* Assets.xcassets */,
 				3AE2EC171FDF200A000F9B20 /* MainMenu.xib */,
 				3AE2EC1A1FDF200A000F9B20 /* Info.plist */,
@@ -104,6 +126,7 @@
 				3AE2EC371FDF2B6C000F9B20 /* MainViewController.h */,
 				3AE2EC381FDF2B6C000F9B20 /* MainViewController.m */,
 				3AE2EC391FDF2B6C000F9B20 /* MainViewController.xib */,
+				3A25391E1FE1F378005DD7A8 /* AVVertex.h */,
 			);
 			name = MainViewController;
 			path = "New Group";
@@ -184,6 +207,7 @@
 				3AE2EC411FDF3C4B000F9B20 /* MainWindowController.m in Sources */,
 				3AE2EC1C1FDF200A000F9B20 /* main.m in Sources */,
 				3AE2EC141FDF200A000F9B20 /* AppDelegate.m in Sources */,
+				3A7CEE111FE45E7F00CE443D /* AVRenderer.m in Sources */,
 				3AE2EC3A1FDF2B6C000F9B20 /* MainViewController.m in Sources */,
 				3AE2EC3D1FDF3203000F9B20 /* Shaders.metal in Sources */,
 			);
